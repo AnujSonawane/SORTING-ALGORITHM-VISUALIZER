@@ -1,0 +1,96 @@
+@font-face {
+    font-family: title;
+    src: url(radiometry.ttf);
+}
+@font-face {
+    font-family: title1;
+    src: url(Saudagar.ttf);
+}
+
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+#container {
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+.title {
+    font-family: title;
+    font-size: 50px;
+    color: rgb(0, 157, 255);
+    letter-spacing: 3px;
+    word-spacing: 5.5px;
+}
+
+.title1 {
+    font-family: title1;
+    font-size: 20px;
+    color: rgb(0, 157, 255);
+    letter-spacing: 1px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    -webkit-text-stroke: .35px rgb(255, 255, 255);
+}
+
+.sub {
+    font-family: Arial Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+
+#input {
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+input {
+    padding: 5px;
+    margin-right: 10px;
+    font-family: helvetica;
+}
+
+button {
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    background-color: rgb(54, 178, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+
+#output {
+    display: inline-block;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+
+.bar {
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 20px;
+    margin-right: 5px;
+    height: 100px;
+}
+
+.bar.sorted {
+    background-color: #ffffff;
+}
+
+.bar.active {
+    background-color: rgb(54, 178, 255);
+}
